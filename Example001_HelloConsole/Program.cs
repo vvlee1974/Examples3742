@@ -1,3 +1,3 @@
 ﻿// Так записыва.тся комментарии.
-Console.WriteLine("Введите ваше имя: ");
+Console.WriteLine("Hello, Console");
  
