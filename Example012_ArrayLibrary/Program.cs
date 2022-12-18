@@ -33,8 +33,8 @@ int IndexOf(int[] collection, int find)
         if(collection[index] == find)
         {
             position = index;
-            break;
-        }
+            break; //Останавливает поиск индекса при первом совпадении условия if, 
+        }         // без "break" поиск пройдёт весь цикл и вернёт "return" последний найденный совпадающий индекс
         index++;
     }
     return position;
